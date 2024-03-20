@@ -2,6 +2,12 @@
 <p align="center" style="margin-top: 20px;">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=BAGISTO%20VERSION&message=2.0.0&color=WHITE&style=for-the-badge"/>
   <img loading="lazy" src="http://img.shields.io/static/v1?label=LAST%20UPDATE&message=2024-03-20&color=GREEN&style=for-the-badge"/>
+   <img loading="lazy" src="http://img.shields.io/static/v1?label=CONTACT-ME&message=alisson.prof2@gmail.com&color=GREEN&style=for-the-badge"/>
+</p>
+
+<p>
+  This package is based on paypal payment method of bagisto developed by: Alisson Lucas
+  If u are interested in implement in your project just contact me: alisson.prof2@gmail.com
 </p>
 
 ## Installation :arrow_forward:
@@ -46,7 +52,12 @@ After you already paid and get the package zipped sended by me. You need follow 
         $finalData['payment']['additional'] = request()->get('orderData');
       }
      ```
- 6. Finally in your admin panel will show the configs:
+ 6. Now just run:
+    ```
+      composer dump-autoload
+      php artisan optimize:clear
+    ```  
+ 7. Finally in your admin panel will show the configs:
     ![image](https://github.com/alisson-l/MercadoPagoBagisto/assets/65234789/e8b54c00-83ab-407a-9ef3-4d71c615357e)
     ![image](https://github.com/alisson-l/MercadoPagoBagisto/assets/65234789/a6691d85-2990-40b7-9431-1196f4711512)
 
